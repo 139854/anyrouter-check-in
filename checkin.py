@@ -520,7 +520,7 @@ async def main():
 			if success:
 				success_count += 1
 
-			should_notify_this_account = False
+			should_notify_this_account = True
 
 			if not success:
 				should_notify_this_account = True
